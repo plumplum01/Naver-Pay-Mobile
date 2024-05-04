@@ -8,146 +8,240 @@
     <title>Naver pay Mobile</title>
 </head>
 <body>
-    <!-- 주문상품 카드 -->
-    <section class="item-wrapper">
-        <div class="card col gap-m">
-            <div class="row space-between">
-                <div class="col gap-xs">
-                    <h5>도이치몰</h5>
-                    <div class="row gap-xxs">
-                        <span id="blue">해외</span>
-                        <hr>
-                        <span>무료배송</span>
-                    </div>
-                </div>
-                <input type="button" class="line-btn" value="문의하기">
-            </div>
-            <hr>
-            <div class="col gap-s">
-                <h5>배송중</h5>
-                <div class="row gap-m">
-                    <img src="./Img/item-img.png" class="item-img" alt="">
-                    <div class="col space-between" style="margin: 16px 0;">
-                        <h5 style="font-weight: 400;">
-                            오쏘몰 이뮨 액상 드링크 독일 멀티</h5>
-                        <div class="row">
-                            <span id="gray400">
-                                <span class="chip-option"></span>
-                                오쏘몰(오르토몰)-소비기한1년이상(최근제조):이뮨 (액상+정제형)
-                                30일 남녀공용
-                                |
-                                <span id="black">1개</span>
-                            </span>
-                        </div>
-                        <div class="row gap-xs">
-                            <h5 class="row">75,800원 </h5>
-                            <h5 id="gray400" style="text-decoration: line-through;">120,000</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="btn-grid">
-                    <input type="button" class="fill-btn" id="green-btn" value="배송조회">
-                    <input type="button" class="fill-btn" value="구매확정">
-                    <input type="button" class="fill-btn" value="반품요청">
-                    <input type="button" class="fill-btn" value="교환요청">
-                </div>
-            </div>
-            <hr>
-            <span id="gray400">오늘출발 상품은 판매자의 상황에 따라 배송일정이 변경될 수 있습니다.</span>
-        </div>
-    </section>
-    <!-- 배송지 카드 -->
-    <section class="add-wrapper">
-        <div class="card col gap-s">
-            <h5>윤서빈(윤서빈)</h5>
-            <h5 id="gray400">010-5268-9736 | 010-5268-9736</h5>
-            <div>
-                <h5>부산광역시 동래구 온천장로 119번길 1023 (계란동, 계란한판 아파트) 107동 208호(29392)</h5>
-            </div>
-        </div>
-    </section>
-    <!-- 결제정보 카드 + 충전결제 배너 -->
-    <section class="pay-info-wrapper">
-        <div class="card col gap-m">
-            <div class="col gap-s">
-                <div class="row space-between" id="green200">
-                    <h5>주문금액</h5>
-                    <h5>총 74,800원</h5>
-                </div>
-                <div class="col left-line gap-xs">
-                    <div class="row space-between" id="gray400">
-                        <h5>상품금액</h5>
-                        <h5>120,800원</h5>
-                    </div>
-                    <div class="row space-between" id="gray400">
-                        <h5>쿠폰할인</h5>
-                        <h5>-45,200원</h5>
-                    </div>
-                    <div class="row space-between" id="gray400">
-                        <h5>배송비</h5>
-                        <h5>0원</h5>
-                    </div>
-                </div>
-        
-                <div class="row gap-xs">
-                    <h5 class="row">75,800원 </h5>
-                    <h5 id="gray400" style="text-decoration: line-through;">120,000</h5>
-                </div>
-            </div>
-            <hr>
-            <div class="col gap-xs">
+    <section class="all-card-wrapper col gap-l">
+        <!-- 주문상품 카드 -->
+        <section class="item-wrapper">
+            <div class="card col gap-m">
                 <div class="row space-between">
-                    <h5>카드 간편결제</h5>
-                    <h5>총 74,800원</h5>
+                    <div class="col gap-xs">
+                        <h5>도이치몰</h5>
+                        <div class="row gap-xxs">
+                            <span id="blue">해외</span>
+                            <hr>
+                            <span>무료배송</span>
+                        </div>
+                    </div>
+                    <input type="button" class="line-btn" value="문의하기">
                 </div>
-                <div class="col left-line gap-xs">
-                    <div class="row space-between" id="gray400">
-                        <h5>하나 3942 **** **** **** | 일시불</h5>
+                <hr>
+                <div class="col gap-s">
+                    <h5>배송중</h5>
+                    <div class="row gap-m">
+                        <img src="./Img/item-img.png" class="item-img" alt="">
+                        <div class="col space-between" style="margin: 16px 0;">
+                            <h5 style="font-weight: 400;">
+                                오쏘몰 이뮨 액상 드링크 독일 멀티</h5>
+                            <div class="row">
+                                <span id="gray400">
+                                    <span class="chip-option"></span>
+                                    오쏘몰(오르토몰)-소비기한1년이상(최근제조):이뮨 (액상+정제형)
+                                    30일 남녀공용
+                                    |
+                                    <span id="black">1개</span>
+                                </span>
+                            </div>
+                            <div class="row gap-xs">
+                                <h5 class="row">75,800원 </h5>
+                                <h5 id="gray400" style="text-decoration: line-through;">120,000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-grid">
+                        <input type="button" class="fill-btn" id="green-btn" value="배송조회">
+                        <input type="button" class="fill-btn" value="구매확정">
+                        <input type="button" class="fill-btn" value="반품요청">
+                        <input type="button" class="fill-btn" value="교환요청">
                     </div>
                 </div>
+                <hr>
+                <span id="gray400">오늘출발 상품은 판매자의 상황에 따라 배송일정이 변경될 수 있습니다.</span>
             </div>
-            <div class="col">
-                <li><span id="gray400">카드에 비씨마크가 없는 경우 무이자 할부 적용불가</span></li>
-                <li><span id="gray400">무이자 적용여부는 카드사로 문의하시면 정확하게 확인할 수 있습니다</span></li>
-            </div>
-        </div>
-    </section>
-    <section class="charge-pay-wrapper">
-        <div class="card row space-between">
-            <div class="banner-left">
-                <h5>다음주문시</h5>
-                <div class="row gap-xs">
-                    <h5 id="green200">최대 2,244원</h5>
-                    <h5>받을 수 있는</h5>
+        </section>
+        <!-- 배송지 카드 -->
+        <section class="add-wrapper">
+            <div class="card col gap-s">
+                <h5>윤서빈(윤서빈)</h5>
+                <h5 id="gray400">010-5268-9736 | 010-5268-9736</h5>
+                <div>
+                    <h5>부산광역시 동래구 온천장로 119번길 1023 (계란동, 계란한판 아파트) 107동 208호(29392)</h5>
                 </div>
             </div>
-        <input type="button" class="fill-btn" id="round-btn" value="충전결제 사용하기">
-        </div>
-    </section>
-    <!-- 포인트혜택 -->
-    <section class="save-wrapper">
-        <div class="card">
-            <div class="col gap-m">
-                <div class="col gap-xs">
-                    <div class="row space-between">
-                        <h5>구매적립</h5>
-                        <h5>총 720원</h5>
+        </section>
+        <!-- 결제정보 카드 + 충전결제 배너 -->
+        <section class="pay-info-wrapper">
+            <div class="card col gap-m">
+                <div class="col gap-s">
+                    <div class="row space-between" id="green200">
+                        <h5>주문금액</h5>
+                        <h5>총 74,800원</h5>
                     </div>
                     <div class="col left-line gap-xs">
                         <div class="row space-between" id="gray400">
-                            <h5>기본적립</h5>
-                            <h5>748원</h5>
+                            <h5>상품금액</h5>
+                            <h5>120,800원</h5>
+                        </div>
+                        <div class="row space-between" id="gray400">
+                            <h5>쿠폰할인</h5>
+                            <h5>-45,200원</h5>
+                        </div>
+                        <div class="row space-between" id="gray400">
+                            <h5>배송비</h5>
+                            <h5>0원</h5>
+                        </div>
+                    </div>
+        
+                    <div class="row gap-xs">
+                        <h5 class="row">75,800원 </h5>
+                        <h5 id="gray400" style="text-decoration: line-through;">120,000</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="col gap-xs">
+                    <div class="row space-between">
+                        <h5>카드 간편결제</h5>
+                        <h5>총 74,800원</h5>
+                    </div>
+                    <div class="col left-line gap-xs">
+                        <div class="row space-between" id="gray400">
+                            <h5>하나 3942 **** **** **** | 일시불</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col gap-xs">
-                    <div class="row space-between">
-                        <h5>리뷰적립</h5>
-                        <h5>최대 748원</h5>
-                    </div>
-                    <li><span id="gray400">동일상품의 경우 각 1회로 제한</span></li>
+                <div class="col">
+                    <li><span id="gray400">카드에 비씨마크가 없는 경우 무이자 할부 적용불가</span></li>
+                    <li><span id="gray400">무이자 적용여부는 카드사로 문의하시면 정확하게 확인할 수 있습니다</span></li>
                 </div>
             </div>
+        </section>
+        <section class="charge-pay-wrapper">
+            <div class="card row space-between">
+                <div class="banner-left">
+                    <h5>다음주문시</h5>
+                    <div class="row gap-xs">
+                        <h5 id="green200">최대 2,244원</h5>
+                        <h5>받을 수 있는</h5>
+                    </div>
+                </div>
+            <input type="button" class="fill-btn" id="round-btn" value="충전결제 사용하기">
+            </div>
+        </section>
+        <!-- 포인트혜택 -->
+        <section class="save-wrapper">
+            <div class="card">
+                <div class="col gap-m">
+                    <div class="col gap-xs">
+                        <div class="row space-between">
+                            <h5>구매적립</h5>
+                            <h5>총 720원</h5>
+                        </div>
+                        <div class="col left-line gap-xs">
+                            <div class="row space-between" id="gray400">
+                                <h5>기본적립</h5>
+                                <h5>748원</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col gap-xs">
+                        <div class="row space-between">
+                            <h5>리뷰적립</h5>
+                            <h5>최대 748원</h5>
+                        </div>
+                        <li><span id="gray400">동일상품의 경우 각 1회로 제한</span></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 함께 많이 찾는 상품 -->
+        <section class="together-wrapper">
+            <div class="card col gap-l">
+                <div class="row space-between">
+                    <h5>함께 많이 찾는 상품이에요</h5>
+                    <span id="gray400">광고</span>
+                </div>
+                <div class="row list-wrapper-3">
+                    <div class="col-nowrap space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대
+                        </span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대 어쩌구저</span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+        
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대</span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                </div>
+                <div class="page-btn row">
+                    <input type="button" class="line-btn" id="next-btn" value="<">
+                    <span>1/15</span>
+                    <input type="button" class="line-btn" id="next-btn" value=">">
+                </div>
+            </div>
+        </section>
+        <!-- 프로바이오틱스 -->
+        <section class="together-wrapper">
+            <div class="card col gap-l">
+                <div class="row space-between">
+                    <div class="col">
+                        <h5>멀티비타민과 함께 구매하는</h5>
+                        <div class="row">
+                            <h5 id="green200">프로바이오틱스</h5>
+                            <h5>는 어떠세요?</h5>
+                        </div>
+                    </div>
+                    <span id="gray400">광고</span>
+                </div>
+                <div class="row list-wrapper-2">
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대
+                        </span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대 어쩌구저</span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대</span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                    <div class="col space-between">
+                        <img src="./Img/item-img.png" class="list-img" alt="">
+                        <h5>31,600원</h5>
+                        <span>[4개월] 닥터린 루테인지아잔틴 2세대</span>
+                        <span id="gray400">닥터린 공식스토어</span>
+                    </div>
+                </div>
+                <div class="page-btn row">
+                    <input type="button" class="line-btn" id="next-btn" value="<">
+                    <span>1/15</span>
+                    <input type="button" class="line-btn" id="next-btn" value=">">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="footer row-wrap gap-m">
+            <a href="#">로그아웃</a>
+            <a href="#">전체서비스</a>
+            <a href="#">쇼핑&페이 고객센터</a>
+            <a href="#">약관 및 정책</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">신용정보 활용체제</a>
         </div>
     </section>
 </body>
